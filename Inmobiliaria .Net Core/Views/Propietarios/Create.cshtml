@@ -1,0 +1,72 @@
+﻿@model Inmobiliaria_.Net_Core.Models.Propietario
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Agregar propietario</h2>
+
+<h6><a asp-action="index">Cancelar</a></h6>
+<hr />
+<div class="row">
+    <div class="col-12">
+        <form asp-action="Create" style="margin-bottom:45px">
+            <div class="row">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label asp-for="Nombre" class="control-label"></label>
+                        <input asp-for="Nombre" class="form-control"  required/>
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label asp-for="Apellido" class="control-label"></label>
+                        <input asp-for="Apellido" class="form-control" required />
+                        <span asp-validation-for="Apellido" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label asp-for="Dni" class="control-label"></label>
+                        <input asp-for="Dni" class="form-control" required/>
+                        <span asp-validation-for="Dni" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label asp-for="Telefono" class="control-label"></label>
+                        <input asp-for="Telefono" class="form-control" required/>
+                        <span asp-validation-for="Telefono" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <label asp-for="Email" class="control-label"></label>
+                        <input asp-for="Email" value=" " class="form-control" required/>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-6" style="display:none">
+                    <div class="form-group">
+                        <label asp-for="Clave" class="control-label"></label>
+                        <input asp-for="Clave" value="123" class="form-control" required/>
+                        <span asp-validation-for="Clave" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        <div class="form-group">
+            <input type="submit" value="Agregar" class="btn btn-primary" />
+        </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,88 @@
+﻿@model Inmobiliaria_.Net_Core.Models.Inquilino
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Editar inquilino</h2>
+
+<h4><a asp-action="index">Cancelar</a></h4>
+<hr />
+<div class="row">
+    <div class="col-12">
+        <form asp-action="Edit" style="margin-bottom:45px">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label asp-for="Nombre" class="control-label"></label>
+                        <input asp-for="Nombre" class="form-control" required/>
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label asp-for="Apellido" class="control-label"></label>
+                        <input asp-for="Apellido" class="form-control" required/>
+                        <span asp-validation-for="Apellido" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label asp-for="Dni" class="control-label"></label>
+                        <input asp-for="Dni" class="form-control" required/>
+                        <span asp-validation-for="Dni" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label asp-for="Telefono" class="control-label"></label>
+                        <input asp-for="Telefono" class="form-control" required/>
+                        <span asp-validation-for="Telefono" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label asp-for="Mail" class="control-label"></label>
+                        <input asp-for="Mail" class="form-control" required/>
+                        <span asp-validation-for="Mail" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label asp-for="DireccionTrabajo" class="control-label"></label>
+                        <input asp-for="DireccionTrabajo" class="form-control" required/>
+                        <span asp-validation-for="DireccionTrabajo" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label asp-for="DniGarante" class="control-label"></label>
+                        <input asp-for="DniGarante" class="form-control" required/>
+                        <span asp-validation-for="DniGarante" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label asp-for="TelGarante" class="control-label"></label>
+                        <input asp-for="TelGarante" class="form-control" required/>
+                        <span asp-validation-for="TelGarante" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Actualizar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

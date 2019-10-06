@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Inmobiliaria_.Net_Core.Models.Pago>
+
+@{
+    ViewData["Title"] = "Index";
+    Alquiler alquiler = ViewBag.alquiler;
+}
+
+<h2>Pagos para el alquiler @alquiler.Id</h2>
+<h6>De <b> @alquiler.Inquilino.Nombre @alquiler.Inquilino.Apellido </b> en <b> @alquiler.Inmueble.Direccion</b></h6>
+
+<h6><a asp-controller="Alquileres" asp-action="Index">Atras</a> - <a asp-action="Create" asp-route-id="@alquiler.Id">Agregar</a></h6>
+<table class="table" style="margin-bottom:45px">
+    <thead>
+        <tr align="center">
+            <th>
+                @Html.DisplayNameFor(model => model.NroPago)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Importe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </th>
+            <th>
+                Acciones
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            <tr align="center">
+                <td>
+                    @Html.DisplayFor(modelItem => item.NroPago)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Importe)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fecha)
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@item.Id" title="Delete"><span class="lnr lnr-cross"></span></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

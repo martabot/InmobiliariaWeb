@@ -1,0 +1,30 @@
+﻿@model Inmobiliaria_.Net_Core.Models.Pago
+
+@{
+    ViewData["Title"] = "Delete";
+    var alquiler = ViewBag.alquiler as Inmobiliaria_.Net_Core.Models.Alquiler;
+}
+
+<h1>Eliminar pago</h1>
+
+<h4><a asp-action="Index" asp-route-id="@alquiler.Id">Cancelar</a></h4>
+<hr />
+<div class="row">
+    <div class="col-md-5">
+        <form asp-action="Delete">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="IdAlquiler" value="@alquiler.Id" />
+            <div class="form-group">
+                Desea eliminar el pago número <b> @ViewBag.trato </b> ?
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Eliminar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

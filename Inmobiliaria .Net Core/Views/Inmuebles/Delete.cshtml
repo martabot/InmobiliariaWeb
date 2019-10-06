@@ -1,0 +1,29 @@
+﻿@model Inmobiliaria_.Net_Core.Models.Inmueble
+
+
+@{
+    ViewData["Title"] = "Delete";
+}
+@{
+    var Lst = ViewBag.propis as IEnumerable<Inmobiliaria_.Net_Core.Models.Propietario>;
+}
+
+<h2>Eliminar inmueble</h2>
+
+<h6><a asp-action="Index">Cancelar</a></h6>
+<hr />
+<div class="row" style="margin-bottom:30px">
+    <div class="col-md-5">
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="Id" />
+            Desea eliminar la propiedad de <b> @ViewBag.lugar </b> ?
+            <div class="form-group">
+                <input type="submit" value="Eliminar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

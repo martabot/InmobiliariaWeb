@@ -1,0 +1,24 @@
+﻿@model Inmobiliaria_.Net_Core.Models.Propietario
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Eliminar propietario</h2>
+
+<h6><a asp-action="index">Cancelar</a></h6>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Delete">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <p>Desea eliminar al propietario <b> @ViewBag.datos </b> ?</p>
+            <div class="form-group">
+                <input type="submit" value="Eliminar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Inmobiliaria_.Net_Core.Models.Alquiler>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Alquileres</h1>
+
+<p>
+    <a asp-action="Create">Agregar</a>
+</p>
+<table class="table" style="margin-bottom:45px">
+    <thead>
+        <tr align="center">
+            <th>
+                Vigente
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inmueble)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inquilino)
+            </th>
+            <th>
+                Direccion
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaInicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MontoTotal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Multa)
+            </th>
+            <th>
+                Acciones
+            </th>
+            <th>
+                Pagos
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+       @foreach (var item in Model) {
+           var pregunta = item.FechaFin ?? null;
+           var pregunta2 = item.Multa ?? null;
+        <tr align="center">
+            @if (pregunta == null||pregunta.Equals("")) {
+                <td>
+                    SI
+                </td>
+            } else {
+                <td>NO</td>
+            }
+            <td>
+                @Html.DisplayFor(modelItem => item.Inmueble.Propietario.Nombre)
+                @Html.DisplayFor(modelItem => item.Inmueble.Propietario.Apellido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Inquilino.Nombre)
+                @Html.DisplayFor(modelItem => item.Inquilino.Apellido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Inmueble.Direccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaInicio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MontoTotal)
+            </td>
+            @if (pregunta2==null) {
+                <td>
+                    -
+                </td>
+            } else {
+                <td>
+                    @Html.DisplayFor(modelItem => item.Multa)
+                </td>
+            }
+        <td>
+            <a asp-action="Edit" asp-route-id="@item.Id" title="Edit"><span class="lnr lnr-pencil"></span></a>&nbsp;
+            <a asp-action="Delete" asp-route-id="@item.Id" title="Delete"><span class="lnr lnr-cross"></span></a>
+        </td>
+            <td><a asp-controller="Pagos" asp-action="Index" asp-route-id="@item.Id" title="Index"><span class="lnr">IR A PAGOS</span></a></td>
+        </tr>
+        }
+    </tbody>
+</table>

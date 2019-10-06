@@ -1,0 +1,140 @@
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.deps.json
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.runtimeconfig.json
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.runtimeconfig.dev.json
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.dll
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.pdb
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.Views.dll
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.Views.pdb
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.csprojAssemblyReference.cache
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.RazorAssemblyInfo.cache
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.RazorAssemblyInfo.cs
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.TagHelpers.input.cache
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.TagHelpers.output.cache
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.RazorCoreGenerate.cache
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Admin.g.cshtml.cs
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.g.cshtml.cs
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Restringido.g.cshtml.cs
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Seguro.g.cshtml.cs
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Propietarios\Create.g.cshtml.cs
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Propietarios\Index.g.cshtml.cs
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.RazorTargetAssemblyInfo.cache
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.RazorTargetAssemblyInfo.cs
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.Views.pdb
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.dll
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.pdb
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.csproj.CopyComplete
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inmuebles\Create.g.cshtml.cs
+C:\Users\Usuario\Downloads\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inmuebles\Index.g.cshtml.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.csprojAssemblyReference.cache
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.RazorAssemblyInfo.cache
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.RazorAssemblyInfo.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.AssemblyInfoInputs.cache
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.AssemblyInfo.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.dll
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.pdb
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\libman.json
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.deps.json
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.runtimeconfig.json
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.runtimeconfig.dev.json
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.dll
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.pdb
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.Views.dll
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.Views.pdb
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.TagHelpers.input.cache
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.TagHelpers.output.cache
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.RazorCoreGenerate.cache
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Restringido.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Seguro.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inmuebles\Create.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inmuebles\Index.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Propietarios\Create.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Propietarios\Index.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.RazorTargetAssemblyInfo.cache
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.RazorTargetAssemblyInfo.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.Views.pdb
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.csproj.CopyComplete
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inmuebles\Delete.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inmuebles\Edit.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inquilinos\Create.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inquilinos\Delete.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inquilinos\Edit.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inquilinos\Index.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Pagos\Create.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Pagos\Delete.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Pagos\Index.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Propietarios\Delete.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Propietarios\Edit.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Alquileres\Create.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Alquileres\Delete.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Alquileres\Edit.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\inmobiliariaULP-drive\inmobiliariaULP-master\inmobiliariaULP-master\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Alquileres\Index.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\libman.json
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.deps.json
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.runtimeconfig.json
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.runtimeconfig.dev.json
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.dll
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.pdb
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.Views.dll
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\bin\Debug\netcoreapp2.2\Inmobiliaria .Net Core.Views.pdb
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.csprojAssemblyReference.cache
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.RazorAssemblyInfo.cache
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.RazorAssemblyInfo.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.AssemblyInfoInputs.cache
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.AssemblyInfo.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.TagHelpers.input.cache
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.TagHelpers.output.cache
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.RazorCoreGenerate.cache
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Alquileres\Create.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Alquileres\Delete.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Alquileres\Edit.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Alquileres\Index.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Restringido.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Home\Seguro.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inmuebles\Create.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inmuebles\Delete.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inmuebles\Edit.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inmuebles\Index.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inquilinos\Create.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inquilinos\Delete.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inquilinos\Edit.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Inquilinos\Index.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Pagos\Create.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Pagos\Delete.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Pagos\Index.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Propietarios\Create.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Propietarios\Delete.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Propietarios\Edit.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Propietarios\Index.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.RazorTargetAssemblyInfo.cache
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.RazorTargetAssemblyInfo.cs
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.Views.pdb
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.dll
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.pdb
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Inmobiliaria .Net Core.csproj.CopyComplete
+C:\Users\laura\Documents\ULP\net\ProyectoInmobiliaria\Inmobiliaria .Net Core\obj\Debug\netcoreapp2.2\Razor\Views\Propietarios\PassWord.cshtml.g.cs

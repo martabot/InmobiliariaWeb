@@ -1,0 +1,47 @@
+﻿@model Inmobiliaria_.Net_Core.Models.Pago
+
+@{
+    ViewData["Title"] = "Create";
+    var alquiler = ViewBag.alquiler as Inmobiliaria_.Net_Core.Models.Alquiler;
+    int x = ViewBag.ultimo+1;
+    DateTime hoy = DateTime.Today;
+}
+
+    <h2>Agregar pago para el alquiler @alquiler.Id</h2>
+    <h6>De <b> @alquiler.Inquilino.Nombre @alquiler.Inquilino.Apellido </b> en <b> @alquiler.Inmueble.Direccion</b></h6>
+
+<h6><a asp-action="Index" asp-route-id="@alquiler.Id">Cancelar</a></h6>
+<hr />
+<div class="row">
+    <div class="col-12">
+        <form asp-action="Create" asp-route-id="@alquiler.Id" style="margin-bottom:55px">
+            <input type="hidden" asp-for="IdAlquiler" value="@alquiler.Id" />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" value="@alquiler.Id" />
+            <div class="form-group">
+                <label asp-for="NroPago" class="control-label"></label>
+                <input asp-for="NroPago" class="form-control" value="@x"/>
+                <span asp-validation-for="NroPago" class="text-danger"></span>
+            </div>
+            <p class="text-info">&nbsp *Si este no es su pago revise la lista de pagos realizados <span class="text-danger"><strong><a asp-action="Index" asp-route-id="@alquiler.Id">Aqui.</a></strong></span></p>
+            <div class="form-group">
+                <label asp-for="Importe" class="control-label"></label>
+                <input asp-for="Importe" class="form-control" value="@alquiler.Inmueble.Precio" />
+                <span asp-validation-for="Importe" class="text-danger"></span>
+            </div>
+            <p class="text-info">&nbsp *Monto sugerido de acuerdo al precio actual del inmueble</p>
+            <div class="form-group">
+                <label asp-for="Fecha" class="control-label"></label>
+                <input asp-for="Fecha" type="date" class="form-control" required/>
+                <span asp-validation-for="Fecha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Agregar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
