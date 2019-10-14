@@ -19,7 +19,14 @@ namespace Inmobiliaria_.Net_Core.Controllers {
         [Authorize]
         public ActionResult Index(int id) {
             var lista = pagos.ObtenerPorAlquiler(id);
-            ViewBag.alquiler = Alquileres.ObtenerPorId(id);
+            Alquiler alquiler = Alquileres.ObtenerPorId(id);
+            ViewBag.alquiler = alquiler;
+            decimal total=0;
+            foreach(var a in lista) {
+                total += a.Importe;
+            }
+            ViewBag.Pago = total;
+            ViewBag.Restante = alquiler.MontoTotal - total;
             if (TempData.ContainsKey("Id"))
                 ViewBag.Id = TempData["Id"];
             return View(lista);

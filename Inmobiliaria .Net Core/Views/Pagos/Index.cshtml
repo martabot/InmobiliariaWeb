@@ -8,7 +8,6 @@
 
 <h2>Pagos para el alquiler @alquiler.Id</h2>
 <h6>De <b> @alquiler.Inquilino.Nombre @alquiler.Inquilino.Apellido </b> en <b> @alquiler.Inmueble.Direccion</b></h6>
-
 <h6>
     <a asp-controller="Alquileres" asp-action="Index">Atras</a> -
     @if (pregunta == null || pregunta.Equals("")) {
@@ -17,6 +16,7 @@
         <b class="text-info">El contrato finalizó y ya no se pueden agregar pagos</b>
     }
 </h6>
+<h5 style="margin:35px;text-align:center"><span class="text-success">TOTAL PAGO: $@ViewBag.Pago-</span> &nbsp <span class="text-danger">RESTANTE: $@ViewBag.Restante-</span></h5>
 <table class="table" style="margin-bottom:45px">
     <thead>
         <tr align="center">
