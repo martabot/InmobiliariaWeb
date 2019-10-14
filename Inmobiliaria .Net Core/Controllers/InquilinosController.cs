@@ -12,20 +12,23 @@ namespace Inmobiliaria_.Net_Core.Controllers {
         }
 
         [Authorize]
-        // GET: Inquilino
         public ActionResult Index() {
-            var lista = repositorio.ObtenerTodos();
-            if (TempData.ContainsKey("Id"))
-                ViewBag.Id = TempData["Id"];
-            return View(lista);
+            if (TempData.ContainsKey("Busqueda")) {
+                var list = repositorio.Buscar((string)TempData["Busqueda"]);
+                ViewBag.Id = "encontraron " + list.Count + " resultados";
+                return View(list);
+            } else {
+                var lista = repositorio.ObtenerTodos();
+                if (TempData.ContainsKey("Id"))
+                    ViewBag.Id = TempData["Id"];
+                return View(lista);
+            }
         }
-
-        // GET: Inquilino/Create
+        [Authorize]
         public ActionResult Create() {
             return View();
         }
-
-        // POST: Inquilino/Create
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(Inquilino inquilino) {
@@ -34,14 +37,12 @@ namespace Inmobiliaria_.Net_Core.Controllers {
             return RedirectToAction(nameof(Index));
 
         }
-
-        // GET: Inquilino/Edit/5
+        [Authorize]
         public ActionResult Edit(int id) {
             var uno = repositorio.ObtenerPorId(id);
             return View(uno);
         }
-
-        // POST: Inquilino/Edit/5
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, Inquilino collection) {
@@ -56,15 +57,13 @@ namespace Inmobiliaria_.Net_Core.Controllers {
                 return View(collection);
             }
         }
-
-        // GET: Inquilino/Delete/5
+        [Authorize]
         public ActionResult Delete(int id) {
             var uno = repositorio.ObtenerPorId(id);
             ViewBag.persona = uno.Nombre + " " + uno.Apellido;
             return View(uno);
         }
-
-        // POST: Inquilino/Delete/5
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, Inquilino collection) {

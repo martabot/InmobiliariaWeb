@@ -116,13 +116,13 @@ namespace Inmobiliaria_.Net_Core.Models {
             return p;
         }
 
-        public Propietario ObtenerPorEmail(string emai) {
+        public Propietario ObtenerPorEmail(string email) {
             Propietario p = null;
             using (SqlConnection connection = new SqlConnection(connectionString)) {
                 string sql = $"SELECT IdPropietario, Nombre, Apellido, Dni, Telefono, Email, Clave FROM Propietarios" +
-                    $" WHERE Email=@emai";
+                    $" WHERE Email=@email";
                 using (SqlCommand command = new SqlCommand(sql, connection)) {
-                    command.Parameters.Add("@emai", SqlDbType.VarChar).Value = emai;
+                    command.Parameters.Add("@email", SqlDbType.VarChar).Value = email;
                     command.CommandType = CommandType.Text;
                     connection.Open();
                     var reader = command.ExecuteReader();
@@ -157,6 +157,33 @@ namespace Inmobiliaria_.Net_Core.Models {
                 }
             }
 
+            return res;
+        }
+
+        public IList<Propietario> Buscar(string clave) {
+            IList<Propietario> res = new List<Propietario>();
+            using (SqlConnection connection = new SqlConnection(connectionString)) {
+                string sql = $"SELECT IdPropietario, Nombre, Apellido, Dni, Telefono, Email, Clave" +
+                    $" FROM Propietarios WHERE (Nombre LIKE '%' + '{clave}' + '%') OR (Apellido LIKE '%' + '{clave}' + '%') OR (Dni LIKE '%' + '{clave}' + '%') OR (Telefono LIKE '%' + '{clave}' + '%') OR (Email LIKE '%' + '{clave}' + '%')" ;
+                using (SqlCommand command = new SqlCommand(sql, connection)) {
+                    command.CommandType = CommandType.Text;
+                    connection.Open();
+                    var reader = command.ExecuteReader();
+                    while (reader.Read()) {
+                        Propietario p = new Propietario {
+                            IdPropietario = reader.GetInt32(0),
+                            Nombre = reader.GetString(1),
+                            Apellido = reader.GetString(2),
+                            Dni = reader.GetString(3),
+                            Telefono = reader.GetString(4),
+                            Email = reader.GetString(5),
+                            Clave = reader.GetString(6),
+                        };
+                        res.Add(p);
+                    }
+                    connection.Close();
+                }
+            }
             return res;
         }
     }

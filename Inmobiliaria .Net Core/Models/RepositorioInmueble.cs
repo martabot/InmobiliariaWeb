@@ -5,10 +5,27 @@ using System.Data;
 using System.Data.SqlClient;
 
 namespace Inmobiliaria_.Net_Core.Models {
-    public class RepositorioInmueble : RepositorioBase, IRepositorio<Inmueble> {
+    public class RepositorioInmueble : RepositorioBase, IRepositorioInmueble {
         public RepositorioInmueble(IConfiguration configuration) : base(configuration) {
 
         }
+
+        public int ActualizarDisponible(int id, int disponible) {
+            int res = -1;
+            using (SqlConnection connection = new SqlConnection(connectionString)) {
+                string sql = $"UPDATE Inmuebles SET Disponible=@disponible " +
+                    $"WHERE Id = {id}";
+                using (SqlCommand command = new SqlCommand(sql, connection)) {
+                    command.Parameters.Add("@disponible", SqlDbType.Int).Value = disponible;
+                    command.CommandType = CommandType.Text;
+                    connection.Open();
+                    res = command.ExecuteNonQuery();
+                    connection.Close();
+                }
+            }
+            return res;
+        }
+
         public int Alta(Inmueble p) {
             int res = -1;
             using (SqlConnection connection = new SqlConnection(connectionString)) {
@@ -35,6 +52,39 @@ namespace Inmobiliaria_.Net_Core.Models {
                     command.CommandType = CommandType.Text;
                     connection.Open();
                     res = command.ExecuteNonQuery();
+                    connection.Close();
+                }
+            }
+            return res;
+        }
+
+        public IList<Inmueble> Buscar(string clave) {
+            IList<Inmueble> res = new List<Inmueble>();
+            using (SqlConnection connection = new SqlConnection(connectionString)) {
+                string sql = $"SELECT i.Id, Direccion, Ambientes,Precio,Categoria,Uso,Transaccion, i.Propietario, p.Nombre, p.Apellido, Disponible " +
+                    $" FROM Inmuebles i JOIN Propietarios p ON (p.IdPropietario=i.Propietario) WHERE (p.Nombre LIKE '%' + '{clave}' + '%') OR (p.Apellido LIKE '%' + '{clave}' + '%') OR (p.Dni LIKE '%' + '{clave}' + '%') OR (p.Telefono LIKE '%' + '{clave}' + '%') OR (p.Email LIKE '%' + '{clave}' + '%') OR (Direccion LIKE '%' + '{clave}' + '%') OR (Categoria LIKE '%' + '{clave}' + '%') OR (Uso LIKE '%' + '{clave}' + '%') OR (Transaccion LIKE '%' + '{clave}' + '%')";
+                using (SqlCommand command = new SqlCommand(sql, connection)) {
+                    command.CommandType = CommandType.Text;
+                    connection.Open();
+                    var reader = command.ExecuteReader();
+                    while (reader.Read()) {
+                        Inmueble i = new Inmueble {
+                            Id = reader.GetInt32(0),
+                            Direccion = reader.GetString(1),
+                            Ambientes = reader.GetInt32(2),
+                            Precio = reader.GetDecimal(3),
+                            Categoria = reader.GetString(4),
+                            Uso = reader.GetString(5),
+                            Transaccion = reader.GetString(6),
+                            Disponible = reader.GetInt32(10),
+                            Propietario = new Propietario {
+                                IdPropietario = reader.GetInt32(7),
+                                Nombre = reader.GetString(8),
+                                Apellido = reader.GetString(9)
+                            }
+                        };
+                        res.Add(i);
+                    }
                     connection.Close();
                 }
             }

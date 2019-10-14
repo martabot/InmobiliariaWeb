@@ -13,11 +13,12 @@
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id"/>
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="IdInmueble" value="@Model.Inmueble.Id" />
             <p>Realizar cambio de fecha o multa para el contrado de alquiler entre <b>@ViewBag.trato </b></p>
             <div class="form-group">
                 <label asp-for="FechaFin" class="control-label"></label>
-                <input asp-for="FechaFin" type="date" class="form-control" min="@Model.FechaInicio"/>
+                <input asp-for="FechaFin" type="date" class="form-control" min="@Model.FechaInicio" />
                 <span asp-validation-for="FechaFin" class="text-danger"></span>
             </div>
             <div class="form-group">

@@ -131,37 +131,41 @@ namespace Inmobiliaria_.Net_Core.Models {
         public IList<Pago> ObtenerTodos() {
             throw new NotImplementedException();
         }
+
+        public IList<Pago> Buscar(string clave) {
+            throw new NotImplementedException();
+        }
         /*
 public IList<Pago> ObtenerPorAlquiler(int) {
-   IList<Pago> res = new List<Pago>();
-   using (SqlConnection connection = new SqlConnection(connectionString)) {
-       string sql = $"SELECT p.Id, Alquiler, Importe , Fecha , c.Id , c.Inquilino , c.Inmueble " +
-           $" FROM Pagos p JOIN Contratos c ON (p.Alquiler=c.Id)";
-       using (SqlCommand command = new SqlCommand(sql, connection)) {
-           command.CommandType = CommandType.Text;
-           connection.Open();
-           var reader = command.ExecuteReader();
-           while (reader.Read()) {
-               Inmueble i = new Inmueble {
-                   Id = reader.GetInt32(0),
-                   Direccion = reader.GetString(1),
-                   Ambientes = reader.GetInt32(2),
-                   Precio = reader.GetDecimal(3),
-                   Categoria = reader.GetString(4),
-                   Uso = reader.GetString(5),
-                   Transaccion = reader.GetString(6),
-                   Propietario = new Propietario {
-                       IdPropietario = reader.GetInt32(7),
-                       Nombre = reader.GetString(8),
-                       Apellido = reader.GetString(9)
-                   }
-               };
-               res.Add(i);
-           }
-           connection.Close();
-       }
-   }
-   return res;
+IList<Pago> res = new List<Pago>();
+using (SqlConnection connection = new SqlConnection(connectionString)) {
+string sql = $"SELECT p.Id, Alquiler, Importe , Fecha , c.Id , c.Inquilino , c.Inmueble " +
+  $" FROM Pagos p JOIN Contratos c ON (p.Alquiler=c.Id)";
+using (SqlCommand command = new SqlCommand(sql, connection)) {
+  command.CommandType = CommandType.Text;
+  connection.Open();
+  var reader = command.ExecuteReader();
+  while (reader.Read()) {
+      Inmueble i = new Inmueble {
+          Id = reader.GetInt32(0),
+          Direccion = reader.GetString(1),
+          Ambientes = reader.GetInt32(2),
+          Precio = reader.GetDecimal(3),
+          Categoria = reader.GetString(4),
+          Uso = reader.GetString(5),
+          Transaccion = reader.GetString(6),
+          Propietario = new Propietario {
+              IdPropietario = reader.GetInt32(7),
+              Nombre = reader.GetString(8),
+              Apellido = reader.GetString(9)
+          }
+      };
+      res.Add(i);
+  }
+  connection.Close();
+}
+}
+return res;
 }*/
     }
 }

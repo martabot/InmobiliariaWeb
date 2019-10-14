@@ -89,7 +89,7 @@ namespace Inmobiliaria_.Net_Core.Controllers {
                     ViewBag.Error = ex.Message;
                     ViewBag.StackTrate = ex.StackTrace;
                 }
-                    
+
                 return View();
             }
         }
@@ -118,5 +118,11 @@ namespace Inmobiliaria_.Net_Core.Controllers {
         public ActionResult Restringido() {
             return View();
         }
+        [Authorize]
+        public ActionResult Buscar(Busqueda busqueda) {
+            TempData["Busqueda"] = busqueda.Consulta;
+            return RedirectToAction("Index",busqueda.Tabla);
+        }
+
     }
 }

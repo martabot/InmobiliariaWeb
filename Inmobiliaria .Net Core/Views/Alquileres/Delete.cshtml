@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Delete";
+    var pregunta = Model.Inmueble ?? null;
 }
 
 <h1>Eliminar alquiler</h1>
@@ -13,6 +14,11 @@
         <form asp-action="Delete">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
+            @if (pregunta != null) {
+                <input type="hidden" asp-for="IdInmueble" value="@Model.Inmueble.Id" />
+            } else {
+                <input type="hidden" asp-for="IdInmueble" />
+            }
             <div class="form-group">
                 Desea eliminar el Contrato de Alquiler entre el Locador <b> @ViewBag.trato </b> ?
             </div>

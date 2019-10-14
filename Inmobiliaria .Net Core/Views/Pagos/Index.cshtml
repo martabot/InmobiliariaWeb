@@ -3,12 +3,20 @@
 @{
     ViewData["Title"] = "Index";
     Alquiler alquiler = ViewBag.alquiler;
+    var pregunta = alquiler.FechaFin ?? null;
 }
 
 <h2>Pagos para el alquiler @alquiler.Id</h2>
 <h6>De <b> @alquiler.Inquilino.Nombre @alquiler.Inquilino.Apellido </b> en <b> @alquiler.Inmueble.Direccion</b></h6>
 
-<h6><a asp-controller="Alquileres" asp-action="Index">Atras</a> - <a asp-action="Create" asp-route-id="@alquiler.Id">Agregar</a></h6>
+<h6>
+    <a asp-controller="Alquileres" asp-action="Index">Atras</a> -
+    @if (pregunta == null || pregunta.Equals("")) {
+        <a asp-action="Create" asp-route-id="@alquiler.Id">Agregar</a>
+    } else {
+        <b class="text-info">El contrato finalizó y ya no se pueden agregar pagos</b>
+    }
+</h6>
 <table class="table" style="margin-bottom:45px">
     <thead>
         <tr align="center">

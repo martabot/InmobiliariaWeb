@@ -15,19 +15,24 @@ namespace Inmobiliaria_.Net_Core.Controllers {
         public IRepositorio<Propietario> Propietarios { get; set; }
 
         [Authorize]
-        // GET:
         public ActionResult Index() {
-            var lista = repositorio.ObtenerTodos();
-            if (TempData.ContainsKey("Id"))
-                ViewBag.Id = TempData["Id"];
-            return View(lista);
+            if (TempData.ContainsKey("Busqueda")) {
+                var list = repositorio.Buscar((string)TempData["Busqueda"]);
+                ViewBag.Id = "encontraron " + list.Count + " resultados";
+                return View(list);
+            } else {
+                var lista = repositorio.ObtenerTodos();
+                if (TempData.ContainsKey("Id"))
+                    ViewBag.Id = TempData["Id"];
+                return View(lista);
+            }
         }
-
+        [Authorize]
         public ActionResult Create() {
             ViewBag.propis = Propietarios.ObtenerTodos();
             return View();
         }
-
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(Inmueble inmueble) {
@@ -43,12 +48,13 @@ namespace Inmobiliaria_.Net_Core.Controllers {
                 return View(inmueble);
             }
         }
+        [Authorize]
         public ActionResult Edit(int id) {
             var uno = repositorio.ObtenerPorId(id);
             ViewBag.nombre = uno.Propietario.Nombre + " " + uno.Propietario.Apellido;
             return View(uno);
         }
-
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, Inmueble inmueble) {
@@ -63,13 +69,13 @@ namespace Inmobiliaria_.Net_Core.Controllers {
                 return View(inmueble);
             }
         }
-
+        [Authorize]
         public ActionResult Delete(int id) {
             var uno = repositorio.ObtenerPorId(id);
-            ViewBag.lugar = uno.Propietario.Nombre + " " + uno.Propietario.Apellido+" en "+uno.Direccion;
+            ViewBag.lugar = uno.Propietario.Nombre + " " + uno.Propietario.Apellido + " en " + uno.Direccion;
             return View(uno);
         }
-
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, Inmueble collection) {

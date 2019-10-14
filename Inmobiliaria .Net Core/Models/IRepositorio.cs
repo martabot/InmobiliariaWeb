@@ -8,5 +8,6 @@ namespace Inmobiliaria_.Net_Core.Models {
 
         IList<T> ObtenerTodos();
         T ObtenerPorId(int id);
+        IList<T> Buscar(string clave);
     }
 }

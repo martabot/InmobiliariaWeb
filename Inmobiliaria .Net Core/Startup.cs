@@ -25,6 +25,7 @@ namespace Inmobiliaria_.Net_Core {
             services.AddTransient<IRepositorioPropietario, RepositorioPropietario>();
             services.AddTransient<IRepositorio<Inquilino>, RepositorioInquilino>();
             services.AddTransient<IRepositorio<Inmueble>, RepositorioInmueble>();
+            services.AddTransient<IRepositorioInmueble, RepositorioInmueble>();
             services.AddTransient<IRepositorio<Alquiler>, RepositorioAlquiler>();
             services.AddTransient<IRepositorio<Pago>, RepositorioPago>();
             services.AddTransient<IRepositorioPago, RepositorioPago>();
